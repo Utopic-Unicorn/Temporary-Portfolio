@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  /* body {
+  } */
+  /*body:hover{
+    background-color:white;
+  }*/
+  #welcome-section {
+    height: 100vh;
+    background-color: black;
+  }
+  #My_name {
+    font-size: 2.5rem;
+    color: white;
+  }
+  p {
+    color: grey;
+    font-size: 30px;
+    transform: translate(40%);
+  }
+  #pair {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  @media only screen and (max-width: 1080px) {
+    header {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    #navbar {
+      justify-content: space-around !important;
+    }
+    p {
+      color: #4b4a54;
+      font-size: 30px;
+      transform: translate(0);
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    #navbar {
+      display: flex;
+      font-size: 0.6em;
+      justify-content: space-around !important;
+    }
+    .codepen {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)) !important;
+      grid-gap: 1em;
+  
+      height: 100%;
+      margin: auto !important;
+      padding: 0.5rem !important;
+      justify-content: space-between !important;
+      align-items: center !important;
+      overflow: hidden;
+    }
+  }
+  /*#My_name:hover{
+    font-size:2.5rem;
+    color: black;
+  }*/
+  
+  /*.bull{
+  height: 100px;
+  width: 100px; 
+  border-radius: 50%; 
+  background-color: red;
+    position: absolute;
+    top:40%;
+  }*/
+  img {
+    height: 160px;
+    width: 180px;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  #navbar {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: end;
+    background-color: #4b4a54;
+  }
+  #navbar a {
+    margin: 15px 30px 15px 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+  }
+  
+  #projects {
+    height: 100vh;
+    background-color: #e2b659;
+  }
+  .codepen {
+    /*display:flex;
+    flex-direction:column;*/
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  
+    height: 90vh;
+  
+    padding-left: 14%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  #Contact {
+    height: 100vh;
+    background-color: #4b4a54;
+  }
+  .proj-tit {
+    text-align: center;
+    padding-top: 45px;
+    font-size: 40px;
+  }
+  .project-tile {
+    border: 3px solid black;
+    padding: 2px;
+    
+  }
+  
